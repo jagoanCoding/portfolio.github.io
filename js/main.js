@@ -62,8 +62,9 @@ $(document).ready(function () {
 
 });
 
-$('.eclipse').ready(function(){
-    setTimeout(function(){
-        window.location = 'main.html'
-    }, 10000)
-})
+
+
+//  setTimeout(async function(){
+//            const lok = window.location = 'main.html' .stop()
+//            await lok;
+//         }, 10000)

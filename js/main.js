@@ -62,8 +62,10 @@ $(document).ready(function () {
 
 });
 
-$('.eclipse').ready(function(){
+var current_path = window.location.pathname.split('/').pop().toLowerCase();
+
+if(current_path == 'index.html') {
     setTimeout(function(){
         window.location = 'main.html'
-    }, 10000)
-})
+    }, 5000)
+}

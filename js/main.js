@@ -70,3 +70,4 @@ if(current_path == 'index.html') {
     }, 5000)
 }
 
+

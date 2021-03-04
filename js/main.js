@@ -69,3 +69,4 @@ if(current_path == 'index.html') {
         window.location = 'main.html'
     }, 5000)
 }
+
